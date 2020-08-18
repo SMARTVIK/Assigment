@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_height">150dp</dimen>
+    <dimen name="margin_top">5dp</dimen>
+    <dimen name="padding_item">10dp</dimen>
+    <dimen name="text_size_no_collections">16sp</dimen>
+    <dimen name="heading">16sp</dimen>
+    <dimen name="sub_heading">14sp</dimen>
+    <dimen name="text">12sp</dimen>
+</resources>

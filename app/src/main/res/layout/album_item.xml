@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_item"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivPreviewImage"
+        android:src="@drawable/ic_placeholder"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_height"/>
+
+    <TextView
+        android:text="@string/app_name"
+        android:id="@+id/tvCollectionCensoredName"
+        android:layout_marginTop="@dimen/margin_top"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="@dimen/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="@string/app_name"
+        android:id="@+id/tvCollectionPrice"
+        android:textSize="@dimen/sub_heading"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="@string/app_name"
+        android:id="@+id/tvReleaseDate"
+        android:textSize="@dimen/text"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
